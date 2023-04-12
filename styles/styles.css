@@ -1,0 +1,46 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: "../Pictures/IMG_1106.jpeg";
+    background-repeat: repeat;
+    color: navy;
+
+}
+a{
+    color: aqua;
+}
+a:visited{
+    color: pink
+}
+li{
+    font-style: italic;
+}
+li:hover{
+    font-size: 105%;
+    text-decoration: underline;
+    background-color: darkblue;
+    background-size: contain;
+    color: white;
+}
+img{
+    display: block;
+    margin: auto;
+    border: 10px solid white;
+    padding: 5px;
+    text-align: center;
+}
+.gangnam{
+    font-family: chiller;
+    font-style: italic;
+    font-weight: bolder;
+    color: red;
+    background-color: lime;
+    border: 5px dotted aqua;
+}
+.gangam:hover{
+    font-family: chiller;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(0, 17, 255);
+    background-color: rgb(255, 0, 238);
+    border: 5px dotted rgb(255, 0, 0);
+}
